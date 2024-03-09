@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.gradient-background {
+  /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); // ORIGINAL GRADIENT */
+  background: linear-gradient(300deg, #FCCF31 , #F55555); /* More Plaful Color that is a dog should love */ 
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.header-image {
+  height: 82vh;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
